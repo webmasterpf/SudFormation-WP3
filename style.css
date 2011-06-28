@@ -1,0 +1,21 @@
+/*
+Theme Name: Starter Theme WP3 PF
+Theme URI: 
+Description: Thème de départ pour sites de l'associations Provence Formation.
+Author: PF Dev Team
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+
+*/
+/* Architecture */
+@import "css/reset.css";
+@import "css/structure.css";
+@import "css/global_elements.css";
+@import "css/global.css";
+@import "css/layout.css";
+@import "css/menu.css";
+@import "css/fonts.css";
+
+
+
