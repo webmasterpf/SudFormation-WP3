@@ -12,9 +12,11 @@
 	width: 700px;
 }
 #site-title a {
-	color: #000;
-	font-weight: bold;
-	text-decoration: none;
+    color: #DD0804;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    width: 600px;
 }
 #site-description {
 	clear: right;
@@ -26,8 +28,8 @@
 
 /* This is the custom header image */
 #branding img {
-	border-top: 4px solid #000;
-	border-bottom: 1px solid #000;
+	border-top: 4px solid #EEEEEE;
+	border-bottom: 1px solid #EEEEEE;
 	display: block;
 	float: left;
 }
@@ -117,9 +119,9 @@
 	margin: 0 0 48px 0;
 }
 .home .sticky {
-	background: #f2f7fc;
-	border-top: 4px solid #000;
-	margin-left: -20px;
+	background: #fbf0f0;
+	border-top: 4px solid #bfc1c0;
+	margin-left: -5px;
 	margin-right: -20px;
 	padding: 18px 20px;
 }
@@ -179,6 +181,16 @@
 .entry-summary {
 	clear: both;
 	padding: 12px 0 0 0;
+}
+/*CSS pour le lien lire plus*/
+.entry-summary a{
+    color: red;
+    text-decoration: none;
+}
+
+.entry-summary a:hover{
+    color: white;
+    background: red;
 }
 #content .entry-summary p:last-child {
 	margin-bottom: 12px;
@@ -459,8 +471,14 @@ img.aligncenter {
 	display: block;
 	margin: 0 auto;
 }
+.img-list-post{
+    border: 2px solid #EEEEEE;
+    -moz-box-shadow: 0px 0px 5px #565151;
+    -webkit-box-shadow: 0px 0px 5px #565151;
+    -o-box-shadow: 0px 0px 5px #565151;
+    box-shadow: 0px 0px 5px #565151;
 
-
+}
 /* =Navigation
 -------------------------------------------------------------- */
 
@@ -628,6 +646,7 @@ a.comment-edit-link:hover {
 /* Comments form */
 input[type=submit] {
 	color: #333;
+
 }
 #respond {
 	border-top: 1px solid #e7e7e7;
@@ -713,6 +732,13 @@ h3#reply-title {
 .widget_search label {
 	display: none;
 }
+/*Cacher le bouton rechercher*/
+#searchform{
+    float: right;
+}
+#searchsubmit{
+    display: none;
+}
 .widget-container {
 	margin: 0 0 18px 0;
 }
@@ -785,7 +811,22 @@ h3#reply-title {
 	margin-left: 1.3em;
 	padding: 0;
 }
+#main .widget-area ul ul a{
+    color: #100d20;
+    text-decoration: none;
+}
+#main .widget-area ul ul a:hover{
+    color: white;
+    background: #100d20;
+}
 #primary {
+    background: #eeeeee;
+    -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+border: 1px solid #c6c6c6;
+  margin: 15px 0;
+    padding: 5px;
 }
 #secondary {
 }

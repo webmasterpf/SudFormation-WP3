@@ -2,7 +2,7 @@
 -------------------------------------------------------------- */
 
 #access {
-	background: #000;
+	background: #EEEEEE;
 	display: block;
 	float: left;
 	margin: 0 auto;
@@ -25,7 +25,7 @@ div.menu li {
 	position: relative;
 }
 #access a {
-	color: #aaa;
+	color: #060803;
 	display: block;
 	line-height: 38px;
 	padding: 0 10px;
@@ -51,6 +51,7 @@ div.menu li {
 	top: 0;
 }
 #access ul ul a {
+        color: #EEEEEE;
 	background: #333;
 	line-height: 1em;
 	padding: 10px;
@@ -60,16 +61,17 @@ div.menu li {
 #access li:hover > a,
 #access ul ul :hover > a {
 	background: #333;
-	color: #fff;
+	color: #FF880D;
 }
 #access ul li:hover > ul {
 	display: block;
 }
+/*COULEUR DU LIEN a ACTIF*/
 #access ul li.current_page_item > a,
 #access ul li.current-menu-ancestor > a,
 #access ul li.current-menu-item > a,
 #access ul li.current-menu-parent > a {
-	color: #fff;
+	color: #DD0804;
 }
 * html #access ul li.current_page_item a,
 * html #access ul li.current-menu-ancestor a,

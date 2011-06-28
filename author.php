@@ -8,7 +8,7 @@
  */
 
 get_header(); ?>
-
+<?php get_sidebar(); ?>
 		<div id="container">
 			<div id="content" role="main">
 
@@ -56,5 +56,5 @@ if ( get_the_author_meta( 'description' ) ) : ?>
 			</div><!-- #content -->
 		</div><!-- #container -->
 
-<?php get_sidebar(); ?>
+
 <?php get_footer(); ?>

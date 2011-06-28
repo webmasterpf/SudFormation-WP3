@@ -4,12 +4,12 @@
  */
 
 get_header('homepage'); ?>
-<!-- TEMPLATE DE HOMEPAGE CUSTOM-->
+
 <?php get_sidebar(); ?>
 
 		<div id="container" class="two-column-left">
 			<div id="content" role="main">
-
+                        <!-- TEMPLATE DE HOMEPAGE CUSTOM-->
 			<?php
 			/* Run the loop to output the posts.
 			 * If you want to overload this in a child theme then include a file

@@ -64,7 +64,7 @@
 					</span>
 				</<?php echo $heading_tag; ?>>
 				<div id="site-description"><?php bloginfo( 'description' ); ?></div>
-
+                                <div id="search-head"><?php get_search_form(); ?></div>
 				<?php
 					// Check if this is a post or page, if it has a thumbnail, and if it's a big one
 					if ( is_singular() && current_theme_supports( 'post-thumbnails' ) &&
