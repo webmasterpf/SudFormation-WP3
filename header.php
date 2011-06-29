@@ -36,6 +36,7 @@
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+<script type="text/javascript" charset="utf-8">$myjQuery = jQuery.noConflict();</script>
 <?php
 	/* We add some JavaScript to pages with the comment form
 	 * to support sites with threaded comments (when in use).
@@ -50,6 +51,8 @@
 	 */
 	wp_head();
 ?>
+
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -88,3 +91,12 @@
 	</div><!-- #header -->
 
 	<div id="main">
+<div class="breadcrumbs">
+<?php
+// ajout du code pour breadcrumb navxt plugin WP
+if(function_exists('bcn_display'))
+{
+    bcn_display();
+}
+?>
+</div>

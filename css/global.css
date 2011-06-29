@@ -34,10 +34,25 @@
 	float: left;
 }
 
+/* =Breadcrumbs - Fil d'ariane
+-------------------------------------------------------------- */
 
-
-
-
+.breadcrumbs
+{
+	font-size: 1.1em;
+	color: #0F0C1F;
+	margin: 0px 0 15px 5px;
+	
+}
+.breadcrumbs a{
+    color: #DD0804;
+}
+.breadcrumbs a:hover{
+    color: #0F0C1F;
+}
+.breadcrumbs a:active{
+    color: black;
+}
 /* =Content
 -------------------------------------------------------------- */
 
