@@ -761,13 +761,21 @@ h3#reply-title {
 	color: #222;
 	font-weight: bold;
 }
+.widget-area a{
+    color: red;
+    text-decoration: none;
+    padding: 2px;
+}
+
 .widget-area a:link,
 .widget-area a:visited {
 	text-decoration: none;
 }
 .widget-area a:active,
 .widget-area a:hover {
-	text-decoration: underline;
+    text-decoration: none;
+    color: white;
+    background: red;
 }
 .widget-area .entry-meta {
 	font-size: 11px;

@@ -1,0 +1,108 @@
+/*
+CSS pour le formulaire avec Contact Form 7
+source:http://www.ejhansel.com/style-the-contact-form-7-wordpress-plugin/
+*/
+
+#contact{
+	list-style:none;
+	margin:0;
+}
+#contact li{
+	float: left;
+    height: 60px;
+	margin:0 0 20px;
+    position: relative;
+    width: 540px;
+}
+#contact li .text{
+	background: #F0EFEF;
+	padding:15px 10px 10px 0;
+	position:absolute;
+	z-index:100;
+	min-width:85px;
+	border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-bottom-right-radius:5px;
+	border-top-left-radius: 5px;
+	-moz-border-radius-topleft:5px;
+	-webkit-border-top-left-radius:5px;
+	text-indent: 5px;
+}
+#contact li .required{
+	position:absolute;
+	right:10px;
+	top:10px;
+	z-index:100;
+}
+#contact li .wpcf7-form-control-wrap{
+	position: absolute;
+}
+#contact li .wpcf7-form-control-wrap input, #contact li .wpcf7-form-control-wrap textarea, #contact li .wpcf7-form-control-wrap select{
+	background:#fff;
+	border:solid 5px #F0EFEF;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	padding:15px 10px 25px;
+	width: 509px;
+	text-indent:95px;
+	z-index:100;
+	margin:0;
+}
+#contact li .wpcf7-form-control-wrap input:focus, #contact li .wpcf7-form-control-wrap textarea:focus{
+	background:#F0EFEF
+}
+#contact li .wpcf7-form-control-wrap textarea{
+	line-height: 28px;
+    padding: 10px;
+	height:200px;
+}
+#contact li#message{
+	min-height:220px;
+}
+#contact li#submit input{
+	color:#fff;
+	text-decoration:none;
+	margin:10px 30px 0 0;
+	background:#09b2f3;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#69d2f9', endColorstr='#09b2f3');
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#69d2f9), to(#09b2f3));
+	background: -moz-linear-gradient(top, #69d2f9, #09b2f3);
+	border:none;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-0-border-radius:3px;
+	border-radius:3px;
+	display:block;
+	padding:10px 25px;
+	text-align:center;
+	text-shadow:0 1px 0 #09b2f3;
+	text-transform:uppercase;
+}
+#contact li#submit input:hover{
+	background:#69d2f9;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#09b2f3', endColorstr='#69d2f9');
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#09b2f3), to(#69d2f9));
+	background: -moz-linear-gradient(top, #09b2f3, #69d2f9);
+	-moz-box-shadow:0 1px 2px rgba(0,0,0,.5) inset;
+	-webkit-box-shadow:0 1px 2px rgba(0,0,0,.5) inset;
+	-o-box-shadow:0 1px 2px rgba(0,0,0,.5) inset;
+	box-shadow:0 1px 2px rgba(0,0,0,.5) inset;
+	color:#06506c;
+	text-shadow:0 1px 0 rgba(255,255,255,.25);
+	text-transform:uppercase;
+	cursor:pointer;
+}
+div.wpcf7-validation-errors {
+    clear: left;
+}
+#contact .wpcf7-select{
+    margin: 15px 0 5px 200px;
+    float: right;
+}
+/*Pour IE7*/
+<! if IE7>
+#contact li .wpcf7-form-control-wrap input, #contact li .wpcf7-form-control-wrap textarea {
+	position:absolute;
+}
+</>
