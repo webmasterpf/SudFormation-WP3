@@ -197,6 +197,15 @@
 	clear: both;
 	padding: 12px 0 0 0;
 }
+.entry-content a{
+    text-decoration: none;
+    color: #DD0804;
+    padding: 2px;
+}
+.entry-content a:hover{
+    background: #DD0804;
+    color: white;
+}
 /*CSS pour le lien lire plus*/
 .entry-summary a{
     color: red;
