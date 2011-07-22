@@ -206,6 +206,9 @@
     background: #DD0804;
     color: white;
 }
+a:hover.image {
+    background: transparent;
+}
 /*CSS pour le lien lire plus*/
 .entry-summary a{
     color: red;
@@ -759,9 +762,10 @@ h3#reply-title {
 /*Cacher le bouton rechercher*/
 #searchform{
     float: right;
+     margin: 5px;
 }
 #searchsubmit{
-    display: none;
+    display: inline;
 }
 .widget-container {
 	margin: 0 0 18px 0;
