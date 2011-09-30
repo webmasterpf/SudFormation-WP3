@@ -1019,3 +1019,9 @@ code {
 		border: none;
 	}
 }
+/* RESEAUX SOCIAUX STYLE*/
+.social_network{
+    float: left;
+    margin: 0;
+    text-align: center;
+}

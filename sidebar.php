@@ -7,7 +7,7 @@
  * @since Twenty Ten 1.0
  */
 ?>
-
+<!-- SIDEBAR GLOBALE POUR LE SITE -->
 		<div id="primary" class="widget-area" role="complementary">
 			<ul class="xoxo">
 

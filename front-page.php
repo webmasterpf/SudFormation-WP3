@@ -7,6 +7,7 @@ get_header('homepage'); ?>
 
 <?php get_sidebar(); ?>
 
+
 		<div id="container" class="two-column-left">
 			<div id="content" role="main">
                         <!-- TEMPLATE DE HOMEPAGE CUSTOM-->
@@ -20,5 +21,5 @@ get_header('homepage'); ?>
 			</div><!-- #content -->
 		</div><!-- #container -->
 
-
+<?php get_sidebar('social-network'); ?>
 <?php get_footer(); ?>
